@@ -1,9 +1,9 @@
 package kafka
 
 import (
-	"github.com/nekruzvatanshoev/Microservices/contracts"
-	"github.com/nekruzvatanshoev/Microservices/msgqueue"
 	"fmt"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue/contracts"
 	"log"
 )
 

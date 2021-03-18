@@ -2,11 +2,11 @@ package main
 
 import (
 	"github.com/Shopify/sarama"
-	"github.com/nekruzvatanshoev/Microservices/configuration"
+	"github.com/nekruzvatanshoev/Microservices/app/userservice/handlers"
+	localkafka "github.com/nekruzvatanshoev/Microservices/app/userservice/kafka"
 	"github.com/nekruzvatanshoev/Microservices/msgqueue"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue/configuration"
 	"github.com/nekruzvatanshoev/Microservices/msgqueue/kafka"
-	"github.com/nekruzvatanshoev/Microservices/userservice/handlers"
-	localkafka "github.com/nekruzvatanshoev/Microservices/userservice/kafka"
 )
 
 //func main() {
@@ -30,7 +30,7 @@ func main() {
 	var eventListener msgqueue.EventListener
 	var eventEmitter msgqueue.EventEmitter
 
-	config, _ :=configuration.ExtractConfiguration("config.json")
+	config, _ := configuration.ExtractConfiguration("config.json")
 
 
 	conf := sarama.NewConfig()

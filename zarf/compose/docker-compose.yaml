@@ -24,3 +24,12 @@ services:
   zookeeper:
     container_name: 'zookeeper'
     image: wurstmeister/zookeeper
+
+  db:
+    image: postgres
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres

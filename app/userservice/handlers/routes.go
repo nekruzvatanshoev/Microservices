@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"github.com/nekruzvatanshoev/Microservices/msgqueue"
 	"github.com/gorilla/mux"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue"
 	"net/http"
 	"time"
 )

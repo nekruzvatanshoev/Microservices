@@ -1,11 +1,11 @@
 package handlers
 
 import (
-	"github.com/nekruzvatanshoev/Microservices/contracts"
-	"github.com/nekruzvatanshoev/Microservices/msgqueue"
-	"github.com/nekruzvatanshoev/Microservices/userservice/domain"
 	"encoding/json"
 	"fmt"
+	"github.com/nekruzvatanshoev/Microservices/app/userservice/domain"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue/contracts"
 	"net/http"
 )
 //

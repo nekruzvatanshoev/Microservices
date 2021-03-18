@@ -15,7 +15,7 @@ type ServiceConfig struct {
 
 func ExtractConfiguration(filename string) (ServiceConfig, error) {
 	conf := ServiceConfig{
-		RestfulEndpoint: RestfulEPDefault,
+		RestfulEndpoint:     RestfulEPDefault,
 		KafkaMessageBrokers: KafkaMessageBrokersDefault,
 	}
 
