@@ -1,7 +1,7 @@
-package handler
+package handlers
 
 import (
-	"Microservices/msgqueue"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue"
 	"github.com/gorilla/mux"
 	"net/http"
 	"time"
@@ -9,8 +9,8 @@ import (
 
 func ServeAPI(listenAddr string, eventEmitter msgqueue.EventEmitter) {
 	r := mux.NewRouter()
-	r.Methods("post").Path("/login").Handler(&CreateLoginHandler{eventEmitter: eventEmitter})
-
+	//r.Methods("post").Path("/login").Handler(&CreateLoginHandler{eventEmitter: eventEmitter})
+	//r.Methods("get").Path("/store").Handler()
 	srv := http.Server {
 		Handler: r,
 		Addr: listenAddr,

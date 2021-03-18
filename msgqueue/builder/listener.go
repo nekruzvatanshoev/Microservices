@@ -1,8 +1,8 @@
 package builder
 
 import (
-	"Microservices/msgqueue"
-	"Microservices/msgqueue/kafka"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue/kafka"
 	"log"
 	"os"
 )

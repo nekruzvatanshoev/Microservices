@@ -1,7 +1,7 @@
 package msgqueue
 
 import (
-	"Microservices/contracts"
+	"github.com/nekruzvatanshoev/Microservices/contracts"
 	"encoding/json"
 	"fmt"
 	"github.com/mitchellh/mapstructure"

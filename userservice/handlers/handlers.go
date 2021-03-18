@@ -1,9 +1,9 @@
-package handler
+package handlers
 
 import (
-	"Microservices/contracts"
-	"Microservices/msgqueue"
-	"Microservices/userservice/domain"
+	"github.com/nekruzvatanshoev/Microservices/contracts"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue"
+	"github.com/nekruzvatanshoev/Microservices/userservice/domain"
 	"encoding/json"
 	"fmt"
 	"net/http"

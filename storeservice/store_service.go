@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Microservices/storeservice/kafka"
+	"github.com/nekruzvatanshoev/Microservices/storeservice/kafka"
 
 )
 

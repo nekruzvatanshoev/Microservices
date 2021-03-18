@@ -1,8 +1,7 @@
 package kafka
 
 import (
-	"Microservices/msgqueue"
-	"MyEvents/lib/helper/kafka"
+	"github.com/nekruzvatanshoev/Microservices/msgqueue"
 	"encoding/json"
 	"fmt"
 	"github.com/Shopify/sarama"
@@ -40,7 +39,7 @@ func NewKafkaEventListenerFromEnvironment() (msgqueue.EventListener, error) {
 		}
 	}
 
-	client := <-kafka.RetryConnect(brokers, 5*time.Second)
+	client := <-RetryConnect(brokers, 5*time.Second)
 	return NewKafkaEventListener(client, partitions)
 }
 
