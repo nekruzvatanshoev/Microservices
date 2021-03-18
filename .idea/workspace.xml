@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ec6e488-eab1-45cb-81d9-f17c050bd68d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgqueue/builder/listener.go" beforeDir="false" afterPath="$PROJECT_DIR$/msgqueue/builder/listener.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgqueue/kafka/emitter.go" beforeDir="false" afterPath="$PROJECT_DIR$/msgqueue/kafka/emitter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgqueue/kafka/listener.go" beforeDir="false" afterPath="$PROJECT_DIR$/msgqueue/kafka/listener.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgqueue/mapper_static.go" beforeDir="false" afterPath="$PROJECT_DIR$/msgqueue/mapper_static.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storeservice/store_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/storeservice/store_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/handlers/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/handler/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/handlers/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/kafka/subscriber.go" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/kafka/subscriber.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/user_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/user_service.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../go1.15.5/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oWULykfXYwLdY7J7F6VylfzigX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/msgqueue/kafka" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/msgqueue/kafka" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build user_service.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Microservices" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/userservice/user_service.go" />
+      <package value="github.com/nekruzvatanshoev/Microservices" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build user_service.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
