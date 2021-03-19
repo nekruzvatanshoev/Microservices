@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/Shopify/sarama"
-	"github.com/nekruzvatanshoev/Microservices/app/userservice/handlers"
-	localkafka "github.com/nekruzvatanshoev/Microservices/app/userservice/kafka"
+	"github.com/nekruzvatanshoev/Microservices/app/user-api/handlers"
+	localkafka "github.com/nekruzvatanshoev/Microservices/app/user-api/kafka"
 	"github.com/nekruzvatanshoev/Microservices/msgqueue"
 	"github.com/nekruzvatanshoev/Microservices/msgqueue/configuration"
 	"github.com/nekruzvatanshoev/Microservices/msgqueue/kafka"
@@ -51,16 +51,3 @@ func main() {
 	handlers.ServeAPI(config.RestfulEndpoint, eventEmitter)
 }
 
-
-
-//func main(){
-//	if err := run(); err != nil {
-//		log.Println(err)
-//		os.Exit(1)
-//	}
-//}
-//
-//
-//func run() error {
-//	return nil
-//}

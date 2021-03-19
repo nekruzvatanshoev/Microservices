@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec6e488-eab1-45cb-81d9-f17c050bd68d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msgqueue/builder/listener.go" beforeDir="false" afterPath="$PROJECT_DIR$/msgqueue/builder/listener.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msgqueue/kafka/emitter.go" beforeDir="false" afterPath="$PROJECT_DIR$/msgqueue/kafka/emitter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msgqueue/kafka/listener.go" beforeDir="false" afterPath="$PROJECT_DIR$/msgqueue/kafka/listener.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msgqueue/mapper_static.go" beforeDir="false" afterPath="$PROJECT_DIR$/msgqueue/mapper_static.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storeservice/store_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/storeservice/store_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/handlers/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/handler/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/handlers/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/kafka/subscriber.go" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/kafka/subscriber.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/user_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/user_service.go" afterDir="false" />
-    </list>
+    <list default="true" id="4ec6e488-eab1-45cb-81d9-f17c050bd68d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +42,13 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/msgqueue/kafka" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zarf/compose" />
+      <recent name="$PROJECT_DIR$/msgqueue" />
+      <recent name="$PROJECT_DIR$/zarf" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">

@@ -1,5 +1,9 @@
 # Microservices
 
+The project structure is based on Bill Kennedy's course *Ultimate Service 2.0*
+
+https://github.com/ardanlabs/service
+
 ### App
 
 ### Business
