@@ -40,7 +40,7 @@ type Entity struct {
 	Subscribers []Subscriber
 }
 
-
+// Define an Entity category
 type EntityCategory struct {
 	Id int64
 	Type string

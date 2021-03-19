@@ -53,7 +53,7 @@ type DiscountConstraint struct {
 }
 
 
-// Define a point system
+// Define a rewards Point system
 type Point struct {
 	IncrementConditions []PointIncrementCondition
 	DecrementConditions []PointDecrementCondition
@@ -75,7 +75,7 @@ type PointDecrementCondition struct {
 }
 
 
-// Define a service
+// Define a Service
 type Service struct {
 
 }

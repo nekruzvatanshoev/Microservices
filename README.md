@@ -16,12 +16,38 @@ https://github.com/ardanlabs/service
 
 
 
-- app
-- business
-- foundation
-  - A Golang toolkit for microservices
-- msgqueue
-- zarf
+### TODO (Define Phase)
+
+- [x] Structure the project
+  
+#### Data/Domain
+- [x] User
+- [x] Entity
+- [x] Reward
+- [ ] Payment
+- [ ] Product
+- [ ] Service
+- [ ] SQL Schema 
+  
+#### Endpoints
+- [ ] User API
+- [ ] Entity API
+- [ ] Reward API
+- [ ] Payment API
+  
+#### Docker
+- [ ] User Dockerfile
+- [ ] Entity Dockerfile
+- [ ] Reward Dockerfile
+
+#### Message Communication
+- [ ] User
+- [ ] Entity
+- [ ] Reward
+- [ ] Payment
+
+
+
 
 
 ### FAQ
