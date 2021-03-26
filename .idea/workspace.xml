@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec6e488-eab1-45cb-81d9-f17c050bd68d" name="Default Changelist" comment="" />
+    <list default="true" id="4ec6e488-eab1-45cb-81d9-f17c050bd68d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/payment-api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/payment-api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +39,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/msgqueue/kafka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/payment-api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
@@ -41,7 +47,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/msgqueue/kafka" />
+      <recent name="$PROJECT_DIR$/app/payment-api" />
+      <recent name="$PROJECT_DIR$/app/entity-api" />
+      <recent name="$PROJECT_DIR$/app/reward-api" />
+      <recent name="$PROJECT_DIR$/services/user-service/business/data" />
+      <recent name="$PROJECT_DIR$/business/data/schema/sql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/zarf/compose" />
@@ -51,7 +61,16 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build github.com/nekruzvatanshoev/Microservices/app/payment-api">
+    <configuration name="go build github.com/nekruzvatanshoev/Microservices/app/payment-api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Microservices" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/app/payment-api/main.go" />
+      <package value="github.com/nekruzvatanshoev/Microservices/app/payment-api" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build user_service.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Microservices" />
       <working_directory value="$PROJECT_DIR$" />
@@ -63,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/nekruzvatanshoev/Microservices/app/payment-api" />
         <item itemvalue="Go Build.go build user_service.go" />
       </list>
     </recent_temporary>
